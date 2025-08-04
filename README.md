@@ -20,3 +20,8 @@ The script seems to be meant for unixiod system. I got it running on a debian in
 The repl hard only limited use for me however:  unlike a proper repl I could not see  any kind of context retention, i.e. every line is interpreted on its own. Since I found no quick and easy way to  put multiple commands into one line I could not really experiment with variables or anything.
 
 Just creating a file with the features one wants to try and running them with `cmake -P` seems more useful to me.
+
+### security warning
+
+Be aware that if you try this you are running some basically undocumented, unchecked scripts. While I found nothing suspicious, I cannot and do nothing harmful.
+
